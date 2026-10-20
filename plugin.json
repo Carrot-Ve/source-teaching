@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "source-teaching-plugin",
+  "version": "0.1.0",
+  "description": "以源码证据为依据的中文系统逻辑教学 Skill。",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "源码逻辑教学",
+        "shortDescription": "先理解系统，再逐步阅读源码",
+        "capabilities": []
+      }
+    }
+  }
+}
