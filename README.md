@@ -32,7 +32,8 @@ source-teaching/
 ├── LICENSE
 ├── skills/
 │   └── source-teaching/
-│       └── SKILL.md
+│       ├── SKILL.md
+│       └── LICENSE
 └── tests/
     └── validation.md
 ```
@@ -64,7 +65,7 @@ $source-teaching
 
 ## 许可
 
-本仓库以 [MIT License](LICENSE) 发布，`plugin.json` 的 `license` 字段与 `SKILL.md` 的 `license` frontmatter 同步声明为 `MIT`。按上面的方式单独复制 `skills/source-teaching` 目录时，许可证信息随技能一起迁移，不会丢失。
+本仓库以 [MIT License](LICENSE) 发布，`plugin.json` 的 `license` 字段与 `SKILL.md` 的 `license` frontmatter 同步声明为 `MIT`。技能目录内附有与根目录一致的完整 [LICENSE](skills/source-teaching/LICENSE)。单独复制或分发 `skills/source-teaching` 时，请保留该文件中的版权声明和许可全文；`license: MIT` 仅用于标识许可证，不能替代许可全文。
 
 ## 证据边界
 
@@ -90,3 +91,4 @@ $source-teaching
 发布版没有包含原始学习资料、完整本地教学输出、本机绝对路径、个人邮箱、账号专属插件链接或历史 Git 数据。这里保留的是通用规则和概括性测试结论。
 
 本 Skill 不执行被讲解的项目，不保证模型每次遵循全部要求。首轮仍可能对零基础学习者偏长；尚未进行真人测试或多次采样评测。Mermaid 显示依赖宿主，无法显示时可用文字箭头图代替。
+
