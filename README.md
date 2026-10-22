@@ -29,6 +29,7 @@ source-teaching/
 ├── plugin.json
 ├── README.md
 ├── .gitignore
+├── LICENSE
 ├── skills/
 │   └── source-teaching/
 │       └── SKILL.md
@@ -36,7 +37,7 @@ source-teaching/
     └── validation.md
 ```
 
-`SKILL.md` 是唯一必需的技能文件；`plugin.json` 用于支持 portable 插件格式的宿主；测试摘要不参与运行。
+`SKILL.md` 是唯一必需的技能文件；`plugin.json` 用于支持 portable 插件格式的宿主；`LICENSE` 声明仓库许可；测试摘要不参与运行。
 
 ## 安装与使用
 
@@ -60,6 +61,10 @@ $source-teaching
 ```
 
 参考：[Codex 技能文档](https://learn.chatgpt.com/docs/build-skills)。
+
+## 许可
+
+本仓库以 [MIT License](LICENSE) 发布，`plugin.json` 的 `license` 字段与 `SKILL.md` 的 `license` frontmatter 同步声明为 `MIT`。按上面的方式单独复制 `skills/source-teaching` 目录时，许可证信息随技能一起迁移，不会丢失。
 
 ## 证据边界
 

@@ -3,6 +3,7 @@
   "name": "source-teaching-plugin",
   "version": "0.1.0",
   "description": "以源码证据为依据的中文系统逻辑教学 Skill。",
+  "license": "MIT",
   "extensions": {
     "com.openai": {
       "interface": {
